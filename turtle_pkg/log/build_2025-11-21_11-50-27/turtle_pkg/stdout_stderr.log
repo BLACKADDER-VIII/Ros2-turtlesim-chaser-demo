@@ -1,0 +1,24 @@
+running egg_info
+writing build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+writing dependency_links to build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+writing entry points to build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+writing requirements to build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+writing top-level names to build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+reading manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+writing manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+copying turtle_pkg/car_behind.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+running install
+running install_lib
+copying /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/car_behind.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/car_behind.py to car_behind.cpython-312.pyc
+running install_data
+running install_egg_info
+removing '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+Copying build/turtle_pkg/turtle_pkg.egg-info to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+running install_scripts
+Installing car_ahead script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+Installing car_behind script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+Installing car_emerg script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+writing list of installed files to '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log'

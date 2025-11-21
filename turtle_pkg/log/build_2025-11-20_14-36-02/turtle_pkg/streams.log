@@ -1,0 +1,42 @@
+[0.890s] Invoking command in '/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtle_pkg build --build-base /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build install --record /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/install.log --single-version-externally-managed install_data
+[1.062s] running egg_info
+[1.062s] creating build/turtle_pkg/turtle_pkg.egg-info
+[1.072s] writing build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[1.073s] writing dependency_links to build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[1.073s] writing entry points to build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[1.073s] writing requirements to build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[1.073s] writing top-level names to build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[1.073s] writing manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.101s] reading manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.101s] writing manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[1.101s] running build
+[1.101s] running build_py
+[1.102s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build
+[1.102s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib
+[1.102s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[1.103s] copying turtle_pkg/car_behind.py -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[1.103s] copying turtle_pkg/__init__.py -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[1.103s] copying turtle_pkg/car_ahead.py -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[1.103s] running install
+[1.105s] running install_lib
+[1.122s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.122s] copying /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/car_behind.py -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.122s] copying /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/__init__.py -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.123s] copying /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/car_ahead.py -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[1.123s] byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/car_behind.py to car_behind.cpython-312.pyc
+[1.123s] Sorry: TabError: inconsistent use of tabs and spaces in indentation (car_behind.py, line 65)
+[1.123s] byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/__init__.py to __init__.cpython-312.pyc
+[1.123s] byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/car_ahead.py to car_ahead.cpython-312.pyc
+[1.123s] running install_data
+[1.123s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/share/ament_index
+[1.123s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/share/ament_index/resource_index
+[1.123s] creating /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/share/ament_index/resource_index/packages
+[1.123s] copying resource/turtle_pkg -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/share/ament_index/resource_index/packages
+[1.123s] copying package.xml -> /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/share/turtle_pkg
+[1.123s] running install_egg_info
+[1.135s] Copying build/turtle_pkg/turtle_pkg.egg-info to /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+[1.135s] running install_scripts
+[1.236s] Installing car_ahead script to /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[1.236s] Installing car_behind script to /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[1.236s] writing list of installed files to '/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/install.log'
+[1.252s] Invoked command in '/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtle_pkg build --build-base /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/build install --record /home/vboxuser/Desktop/rtos_hw_ec/src/turtle_pkg/build/turtle_pkg/install.log --single-version-externally-managed install_data

@@ -1,0 +1,26 @@
+[0.484s] Invoking command in '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtle_pkg build --build-base /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build install --record /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log --single-version-externally-managed install_data
+[0.624s] running egg_info
+[0.634s] writing build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[0.634s] writing dependency_links to build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[0.634s] writing entry points to build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[0.634s] writing requirements to build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[0.634s] writing top-level names to build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[0.654s] reading manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.656s] writing manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.656s] running build
+[0.656s] running build_py
+[0.656s] copying turtle_pkg/car_emerg.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[0.656s] running install
+[0.659s] running install_lib
+[0.669s] copying /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/car_emerg.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[0.669s] byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/car_emerg.py to car_emerg.cpython-312.pyc
+[0.670s] running install_data
+[0.670s] running install_egg_info
+[0.681s] removing '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.681s] Copying build/turtle_pkg/turtle_pkg.egg-info to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+[0.681s] running install_scripts
+[0.769s] Installing car_ahead script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[0.769s] Installing car_behind script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[0.769s] Installing car_emerg script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[0.769s] writing list of installed files to '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log'
+[0.790s] Invoked command in '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtle_pkg build --build-base /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build install --record /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log --single-version-externally-managed install_data

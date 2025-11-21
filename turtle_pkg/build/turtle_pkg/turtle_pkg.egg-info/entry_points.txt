@@ -1,0 +1,4 @@
+[console_scripts]
+car_ahead = turtle_pkg.car_ahead:main
+car_behind = turtle_pkg.car_behind:main
+car_emerg = turtle_pkg.car_emerg:main

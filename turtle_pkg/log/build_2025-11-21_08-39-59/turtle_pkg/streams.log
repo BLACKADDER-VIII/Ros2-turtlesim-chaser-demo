@@ -1,0 +1,29 @@
+[0.456s] Invoking command in '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtle_pkg build --build-base /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build install --record /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log --single-version-externally-managed install_data
+[0.596s] running egg_info
+[0.607s] writing build/turtle_pkg/turtle_pkg.egg-info/PKG-INFO
+[0.607s] writing dependency_links to build/turtle_pkg/turtle_pkg.egg-info/dependency_links.txt
+[0.607s] writing entry points to build/turtle_pkg/turtle_pkg.egg-info/entry_points.txt
+[0.608s] writing requirements to build/turtle_pkg/turtle_pkg.egg-info/requires.txt
+[0.608s] writing top-level names to build/turtle_pkg/turtle_pkg.egg-info/top_level.txt
+[0.629s] reading manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.631s] writing manifest file 'build/turtle_pkg/turtle_pkg.egg-info/SOURCES.txt'
+[0.631s] running build
+[0.631s] running build_py
+[0.631s] copying turtle_pkg/car_behind.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[0.631s] copying turtle_pkg/car_emerg.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg
+[0.631s] running install
+[0.634s] running install_lib
+[0.644s] copying /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/car_behind.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[0.644s] copying /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build/lib/turtle_pkg/car_emerg.py -> /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg
+[0.644s] byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/car_behind.py to car_behind.cpython-312.pyc
+[0.644s] byte-compiling /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg/car_emerg.py to car_emerg.cpython-312.pyc
+[0.645s] running install_data
+[0.645s] running install_egg_info
+[0.655s] removing '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info' (and everything under it)
+[0.656s] Copying build/turtle_pkg/turtle_pkg.egg-info to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages/turtle_pkg-0.0.0-py3.12.egg-info
+[0.656s] running install_scripts
+[0.740s] Installing car_ahead script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[0.740s] Installing car_behind script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[0.740s] Installing car_emerg script to /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/turtle_pkg
+[0.740s] writing list of installed files to '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log'
+[0.759s] Invoked command in '/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/install/turtle_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base build/turtle_pkg build --build-base /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/build install --record /home/vboxuser/Desktop/rtos_hw_ec/turtle_pkg/build/turtle_pkg/install.log --single-version-externally-managed install_data
